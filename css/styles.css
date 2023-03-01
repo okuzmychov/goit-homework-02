@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #2E2F42;
+}
+
+ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.header-studio {
+    color: #2E2F42;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-mail 
+.header-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.studio-title {
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.stidio-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.studio-link {
+    font-size: 16px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: #434455;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

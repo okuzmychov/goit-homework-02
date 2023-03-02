@@ -1,3 +1,10 @@
+:root {
+    --primery-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --header-color: #ffffff;
+
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -13,6 +20,10 @@ ul {
     text-decoration: none;
 }
 
+.header {
+
+}
+
 .header-logo {
     font-family: 'Raleway';
     font-size: 18px;
@@ -22,18 +33,21 @@ ul {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--accent-color);
 }
 .header-studio {
-    color: #2E2F42;
+    color: var(--primery-text-color);
 }
 
-.header-link {
+.header .link.current {
+    color: var(--accent-color);
+}
+.header-item > .link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primery-text-color);
 }
 
 .header-mail 
@@ -42,16 +56,19 @@ ul {
     font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--title-text-color);
 }
 
+.hero {
+
+}
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--header-color);
 }
 
 .hero-btn {
@@ -61,7 +78,7 @@ ul {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;    
+    color: var(--header-color);    
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -71,7 +88,7 @@ ul {
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--header-color);
 }
 
 .stidio-text {
@@ -79,7 +96,7 @@ ul {
     font-size: 20px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primery-text-color);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -89,7 +106,7 @@ ul {
     font-size: 16px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--title-text-color);
     flex: none;
     order: 1;
     flex-grow: 0;

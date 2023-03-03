@@ -3,13 +3,16 @@
     --title-text-color: #434455;
     --accent-color: #4D5AE5;
     --header-color: #ffffff;
+    --hover-color: #404BBF;
 
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     background-color: #ffffff;
     color: #2E2F42;
+
 }
 
 ul {
@@ -20,12 +23,10 @@ ul {
     text-decoration: none;
 }
 
-.header {
-
-}
+/*---------- HEADER ---------- */
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway'; sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.33;
@@ -35,7 +36,7 @@ ul {
     text-transform: uppercase;
     color: var(--accent-color);
 }
-.header-studio {
+.accent {
     color: var(--primery-text-color);
 }
 
@@ -45,27 +46,36 @@ ul {
 .header-item > .link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
 }
 
-.header-mail 
-.header-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.33;
-    letter-spacing: 0.02em;
+.address {
+    font-style: normal
     color: var(--title-text-color);
 }
 
-.hero {
+.header-mail .link
+.header-tel .link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
+.header-nav .link:hover,
+.header-nav .link:focus {
+    color: var(--hover-color);
+}
+
+/*---------- HERO ---------- */
+
+.hero {
+background-color: rgb(74, 75, 131);
 }
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--header-color);
@@ -74,18 +84,19 @@ ul {
 .hero-btn {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.33;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: var(--header-color);    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    background-color: var(--hover-color);
+    color: var(--header-color);
 }
 
-.studio-title {
-    line-height: 60px;
+/*---------- About us ---------- */
+
+.studio-title,
+.portfolio-title {
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--header-color);
@@ -97,9 +108,6 @@ ul {
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .studio-link {

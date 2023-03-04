@@ -8,11 +8,11 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   letter-spacing: 0.02em;
   background-color: #ffffff;
-  color: var(--primery-text-color);
+  color: var(--title-text-color);
 }
 
 ul {
@@ -26,7 +26,7 @@ ul {
 /*---------- HEADER ---------- */
 
 .header-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.33;
@@ -157,7 +157,7 @@ ul {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -165,8 +165,15 @@ ul {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  background-color:  rgb(74, 75, 131);
-  color: #F4F4FD;
+  background-color: rgb(74, 75, 131);
+  color: #f4f4fd;
 }
+
 .accent {
   color: var(--accent-color);
+}
+
+.studio-title,
+.portfolio-title {
+  overflow: hidden;
+}

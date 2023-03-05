@@ -151,7 +151,10 @@ ul {
   text-transform: capitalize;
 }
 
-/*---------- Our Team ---------- */
+/*---------- Portfolio ---------- */
+.pictures .link {
+  color: var(--title-text-color);
+}
 
 /*----------- FOOTER ------------*/
 .footer {

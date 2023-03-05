@@ -15,7 +15,8 @@ body {
   color: var(--title-text-color);
 }
 
-ul {
+ul,
+.list {
   list-style: none;
 }
 
@@ -123,11 +124,11 @@ ul {
 
 /*---------- About us ---------- */
 
+.portfolio {
+}
 .studio-title,
 .portfolio-title {
-  line-height: 1.5;
-  text-align: center;
-  color: var(--header-color);
+  visibility: hidden;
 }
 
 .stidio-text {
@@ -152,6 +153,7 @@ ul {
 }
 
 /*---------- Portfolio ---------- */
+
 .pictures .link {
   color: var(--title-text-color);
 }
@@ -185,9 +187,4 @@ ul {
 
 .footer-accent {
   color: #f4f4fd;
-}
-
-.studio-title,
-.portfolio-title {
-  overflow: hidden;
 }

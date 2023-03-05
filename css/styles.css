@@ -80,12 +80,14 @@ ul,
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--header-color);
 }
 
 /*---------- Button ---------- */
 
 .btn {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -94,6 +96,7 @@ ul,
   letter-spacing: 0.04em;
   background-color: var(--button-color);
   color: var(--accent-color);
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -103,6 +106,8 @@ ul,
 }
 
 .hero-btn {
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
   background-color: var(--accent-color);
   color: var(--header-color);
 }
@@ -135,6 +140,8 @@ ul,
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
 }
 
 .studio-link {
@@ -150,6 +157,8 @@ ul,
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
 }
 
 /*---------- Portfolio ---------- */

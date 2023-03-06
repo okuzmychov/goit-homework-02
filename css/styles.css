@@ -62,8 +62,8 @@ ul,
   color: var(--title-text-color);
 }
 
-.header-item .link:hover,
-.header-item .link:focus {
+.link:hover,
+.link:focus {
   color: var(--hover-color);
 }
 
